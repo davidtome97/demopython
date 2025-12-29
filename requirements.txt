@@ -1,0 +1,9 @@
+Flask
+Flask_SQLAlchemy
+Flask_Login
+pymysql
+psycopg2-binary
+pymongo
+werkzeug
+cryptography
+pymongo[srv]
