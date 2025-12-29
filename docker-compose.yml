@@ -20,9 +20,9 @@ services:
       retries: 20
       start_period: 15s
 
-  # =========================
+  # ========================
   # APP LOCAL (usa postgres del compose)
-  # =========================
+  # ========================
   demo-python-local:
     build: .
     image: ${IMAGE_URI:-demo-python-local}
